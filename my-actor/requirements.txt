@@ -2,7 +2,5 @@
 # https://pip.pypa.io/en/latest/reference/requirements-file-format/
 
 apify < 3.0
-apify-client
-playwright
-python -m playwright install
-asyncio
+apify-client==0.7.0
+playwright==1.21.1

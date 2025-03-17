@@ -1,12 +1,13 @@
 {
-	"actorSpecification": 1,
-	"name": "my-actor",
-	"title": "Empty Python project",
-	"description": "Empty project in Python.",
-	"version": "0.0",
-	"buildTag": "latest",
-	"meta": {
-		"templateId": "python-empty"
-	},
-	"dockerfile": "./Dockerfile"
+  "version": "0.0.1",
+  "name": "duval-taxdeed-scraper",
+  "description": "Scrapes Duval County Tax Deed information",
+  "type": "python",
+  "build": "latest",
+  "input": {},
+  "output": {
+    "type": "json",
+    "filename": "taxdeed_details.json"
+  }
 }
+
